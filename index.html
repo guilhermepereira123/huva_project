@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huva</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-1">HUVA</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav  class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link active">
+                            <i class="bi bi-balloon-heart"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#categorias" class="nav-link">
+                            <i class="bi bi-grid-3x2"></i>
+                            Categorias
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-box2-heart"></i>
+                            Faça seu pedido
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="img-fluid w-100 d-block img-heigth" src="img/logo_huva.jpeg" alt="Logo Huva">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="img-fluid w-100 d-block img-heigth" src="img/Huva_ProductLine_recortada.jpg" alt="Conjunto produtos">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="img-fluid w-100 d-block img-heigth" src="img/carousel_oleoRosto.jpg" alt="Mulher passando produto no rosto">
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-5">
+                            <img class="d-block w-100 rounded img-heigth" src="img/rosto_vertical.jpg" alt="Mulher passando produto no rosto">
+                        </div>
+                        <div class="col-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a marca</span></h2>
+                            <p class="mt-5 mb-5">Huva nasce da harmonia entre a natureza e a tradição, oferecendo uma linha de skicare que visa não apenas cuidar da sua pele, mas também honrar as raízes culturais da amazónia e tradições indígenas.</p>
+                            <img class="d-block w-100 mb-5" src="img/Huva_ProductLine_recortada.jpg" alt="">
+                            <p>Cada produto é formulado para deixar sua pele hidratada, nutrida e radiante, revelando um glow natural que reflete a beleza única de cada pessoa.</p>
+                            <p>Da língua guarani Huva significa pele macia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="categorias">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center mb-5">Compre por <span class="text-colored">Categoria</span></h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <a class="badge" href="#"><h5 class="section-title text-colored">CORPO</h5></a>
+                                </div>
+                                <img class="card-img-bottom d-block w-100 img-heigth" src="img/produtos_rosto.jpg" alt="Produtos para o rosto">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <a class="badge" href="#"><h5 class="section-title text-colored">ROSTO</h5></a>
+                                        </div>
+                                        <img class="card-img-bottom d-block w-100 img-ajuste" src="img/carousel_oleoRosto.jpg" alt="Mulher passando creme rosto">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a class="badge" href="#"><h5 class="section-title text-colored">Masculino</h5></a>
+                                        </div>
+                                        <img class="card-img-bottom d-block w-100" src="img/homem_cosmedicos.jpg" alt="Homem passando creme rosto">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card mt-4">
+                                        <div class="car-body mt-2 ms-2 mb-2">
+                                            <a class="badge" href="#"><h5 class="section-title text-colored">CABELO</h5></a>
+                                        </div>
+                                        <img class="card-img-bottom d-block w-100" src="img/cabelo_horizontal.jpg" alt="Cabelo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone opcional:</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem:</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#telefone').mask('(+000) 000 000 000')
+        })
+    </script>
+</body>
+</html>

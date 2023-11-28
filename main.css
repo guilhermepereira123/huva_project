@@ -1,0 +1,63 @@
+header{
+    background-color: #5d2510;
+}
+
+.section-title{
+    font-family: Pacifico, cursive;
+}
+.navbar-brand{
+    color: #ccb89c;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #ccb89c;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link{
+    color: #ccb89c;
+}
+
+.navbar-toggler{
+    background-color: #ccb89c;
+}
+
+.img-heigth {
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+#sobre{
+    background-color: #ccb89c;
+}
+
+.text-colored{
+    color: #5d2510;
+}
+
+#categorias .card a{
+    text-decoration: none;
+}
+
+.badge{
+    background-color: #ccb89c;
+}
+
+.img-ajuste{
+    height: 100%;
+    object-fit: cover;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+#contato button{
+    background-color: #5d2510;
+    color: #fff;
+}
